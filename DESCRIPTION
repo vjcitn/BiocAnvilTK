@@ -1,0 +1,17 @@
+Package: BiocAnvilTK
+Title: tools for working with AnVIL data with Bioconductor
+Description: Develop tools for working with AnVIL data with Bioconductor.
+Version: 0.0.0
+Authors@R: c(
+ person("Vincent", "Carey", role = c("cre", "aut"), email = "stvjc@channing.harvard.edu")
+ )
+Suggests: knitr
+Depends: R (>= 3.6.0), AnVIL (>= 0.0.28)
+Maintainer: VJ Carey <stvjc@channing.harvard.edu>
+License: Artistic-2.0
+LazyLoad: yes
+LazyData: yes
+biocViews: Infrastructure
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
+Encoding: UTF-8
